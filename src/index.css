@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+	background-position: center;
+	background-size: cover;
+  background-image: url("https://i.imgur.com/dYQnWcz.png");
+	background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.search-bar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  color: white;
+  padding-bottom: 1rem;
+
+}
+
+.search-bar-container {
+  padding-top: 0.5rem;
+  background-color: rgba(39, 54, 23, 0.486);
+}
+
+.searched {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(82, 63, 133), 0 0 5px rgb(255, 255, 255);
+}
+
+.default-list {
+  margin-top: 1rem;
+  background-color: rgba(254, 250, 224, 0.250);
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(82, 63, 133), 0 0 5px rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 1rem;
+  margin-left: 0.75rem;
+}
+
+.favorite-list {
+  margin-top: 1rem;
+  background-color: rgba(254, 250, 224, 0.250);
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(82, 63, 133), 0 0 5px rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 1rem;
+  margin-right: 0.75rem;
+}
+
+h2 {
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+.btn {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  /* padding: 10fr 10px 10px 10px; */
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 8%;
+  background-color: #283618;
+  color: white;
+  transition-duration: 0.4s;
+
+}
+.btn:hover {
+  border-radius: 1rem;
+  padding: 10px 10px 10px 10px;
+  transform: scale(1.1);
+  transition-duration: 0.4s;
+
+  color: #283618;
+  background-color: white;
+}
+
+.bar {
+  border-radius: 1rem;
+  padding-left: 0px;
+  padding: 10px 40px 10px 40px;
+  width: 75%;
+  border: 4px;
+  border-style: groove;
+  border-color: black;
+  color: black;
+}
+
+li {
+  position: relative;
+  list-style-type: none;
+  height: 15rem;
+  object-fit: cover;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+h3 {
+  margin: 0px;
+  font-size: 1rem;
+}
+.drinkImg {
+  height: 7rem;
+  width: auto;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  transition-duration: 0.4s;
+
+}
+.drinkImg:hover{
+  height: 9rem;
+  transition-duration: 0.4s;
+}
